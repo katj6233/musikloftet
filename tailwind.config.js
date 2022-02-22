@@ -25,6 +25,7 @@ module.exports = {
 
     fontFamily: {
       jetbrains: "'JetBrains Mono', monospace;",
+      bebasneue: "'Bebas Neue', cursive",
     },
 
     extend: {},
