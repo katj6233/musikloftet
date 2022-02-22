@@ -5,16 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FAQ</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="tailwind.css" />
   </head>
 
-  <body class="bg-[url('/img/baggrund.jpg')]">
-
+  <body class="bg-[url('/img/baggrund.jpg')] md:pt-16">
     <!-- menu -->
-    <header>
+
+    <header class="md:grid md:grid-cols-5">
+      <section class="md:col-span-1 md:col-start-1 md:pl-10 md:pt-10">
+        <div class="bg-fourth box-content h-32 w-32 p-4">
+          <li class="list-none">
+            <a class="text-secondary hover:text-seventh" href="index.html"
+              >[om musikloftet]</a
+            >
+          </li>
+          <li class="list-none">
+            <a class="text-secondary hover:text-seventh" href="index.html"
+              >[loftets lokaler]</a
+            >
+          </li>
+          <li class="list-none">
+            <a class="text-secondary hover:text-seventh" href="booking.html"
+              >[booking]</a
+            >
+          </li>
+          <li class="list-none">
+            <a class="text-secondary hover:text-seventh" href="faq.html"
+              >[FAQ]</a
+            >
+          </li>
+          <li class="list-none">
+            <a class="text-secondary hover:text-seventh" href=""
+              >[kontakt os]</a
+            >
+          </li>
+        </div>
+      </section>
+
+      <section
+        class="place-content-start md:col-span-3 md:col-start-2 md:pr-4 md:pb-4"
+      >
+        <img class="" src="/img/logo.png" alt="logo" />
+      </section>
+    </header>
+    <!-- <header>
       <section>
         <div class="bg-fourth box-content h-32 w-32 p-4">
           <li class="list-none">
@@ -33,21 +73,37 @@
             >
           </li>
           <li class="list-none">
-            <a class="text-secondary hover:text-seventh" href="faq.html">[FAQ]</a>
+            <a class="text-secondary hover:text-seventh" href="faq.html"
+              >[FAQ]</a
+            >
           </li>
           <li class="list-none">
-            <a class="text-secondary hover:text-seventh" href="">[kontakt os]</a>
+            <a class="text-secondary hover:text-seventh" href=""
+              >[kontakt os]</a
+            >
           </li>
         </div>
       </section>
-      <!-- <img src="/img/logo.png" alt=""> -->
 
-    <article class="p-4">
-      <section class="md:grid md:grid-cols-5 md:grid-rows-1 md:pl-5">
+      <section
+        class="place-content-start md:grid md:grid-cols-5 md:pr-4 md:pb-4"
+      >
+        <img
+          class="md:col-span-3 md:col-start-2"
+          src="/img/logo.png"
+          alt="logo"
+        />
+      </section>
+    </header> -->
+
+    <article class="pr-4 pl-4 pb-4">
+      <section class="md:grid md:grid-cols-5 md:grid-rows-1 md:pl-4">
         <div
-          class="mt-20 mb-5 bg-[#9800F5] pb-5 pr-3 md:col-span-2 md:col-start-2 md:w-[34em]"
+          class="mt-10 mb-5 bg-[#9800F5] pb-5 pr-3 md:col-span-2 md:col-start-2 md:w-[34em]"
         >
-          <h2 class="mb-3 text-3xl md:text-6xl">FAQ - FREQUENTLY ASKED QUESTIONS</h2>
+          <h2 class="mb-3 text-3xl md:text-6xl">
+            FAQ - FREQUENTLY ASKED QUESTIONS
+          </h2>
           <p class="text-secondary md:w-[30rem]">
             Dette er svar på de mest stillede spørgsmål omkring Musikloftet
           </p>
@@ -57,7 +113,7 @@
         </div>
       </section>
 
-      <section class="md:grid md:grid-cols-5 md:grid-rows-5 md:p-5">
+      <section class="md:grid md:grid-cols-5 md:grid-rows-1 md:p-5">
         <section class="mt-20 md:col-span-2 md:col-start-2 md:mt-10">
           <div class="">
             <p class="mb-4 bg-[#F4F900]">
@@ -83,38 +139,34 @@
             <p class="mb-4 bg-[#F4F900]">
               //Rygning er kun tilladt på terrassen
             </p>
-            <p class="mb-4 bg-[#F4F900]">
+            <p class="mb-4 bg-[#F4F900] md:p-0">
               //Men nyd omgivelserne og drik en kold bajer!
             </p>
           </div>
         </section>
 
-       
+        <!-- SEKTION BETJENT OG BAJER -->
 
         <div
-          class="md:row-start-1.5 md:row-span-0.5 flex md:col-span-2 md:col-start-2 md:flex-wrap md:pr-10"
+          class="flex place-content-evenly justify-center gap-8 pb-9 md:col-span-1 md:col-start-1 md:row-span-1 md:row-start-1 md:flex-wrap md:pr-10"
+        >
+          <img class="md:h-78 h-60 md:pb-14" src="/img/bajer.png" alt="smoke" />
+          <img class="mr-8 h-60 md:h-96" src="/img/betjent.png" alt="betjent" />
+        </div>
+
+        <div
+          class="md:row-start-1.1 md:row-span-0.5 md:col-span-2 md:col-start-2 md:pr-10"
         >
           <video src="/img/brumbrum.mp4" alt="bil" />
-          <video src="/img/gulvvasker.png" alt="gulvvask" />
-        </div>
-
-        <div class="md:row-start-1.5 md:row-span-0.5 flex md:col-span-2 md:col-start-2 md:flex-wrap md:pr-10">
-
-        </div>
-
-
-        <div class="flex justify-center pt-12 md:col-span-1 md:col-start-1 md:row-span-1 md:row-start-1 md:flex-wrap md:pr-10"
-        >
-        <img class="md:pb-14" src="/img/smokebajer.mp4" alt="smoke">
-        <img class="mr-8" src="/img/betjent.png" alt="betjent">
-          
         </div>
       </section>
     </article>
 
     <footer class="border-secondary mt-20 border-4 md:p-4">
       <div class="place-content-start">
-        <img class="md:max-w-sm" src="/img/logo.png" alt="logo" />
+        <a href="index.html"
+          ><img class="md:max-w-sm" src="/img/logo.png" alt="logo"
+        /></a>
       </div>
     </footer>
   </body>
