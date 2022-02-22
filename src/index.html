@@ -39,7 +39,7 @@
           </li>
         </div>
       </section>
-      <!-- <img src="/img/logo.png" alt=""> -->
+      <img src="/img/logo.png" alt="">
     </header>
 
     <section class="grid grid-cols-5 grid-rows-3">
@@ -69,23 +69,28 @@
     </section>
     
 
-    <section class="grid grid-cols-3 grid-rows-2">
-      <div>
+    <section class="grid grid-cols-5 grid-rows-3 m-6">
+      <div class="grid col-start-1 col-span-3 pb-4 h-6">
       <h3 class="text-primary bg-seventh">VI UDLEJER LOKALER PÅ LOFTET</h3>
-      <h3 class="text-primary bg-seventh">BOOK ET LOKALE DIREKTE HER</h3>
       </div>
-      <button class="bg-third hover:bg-ninth hover:underline hover:text-secondary text-primary">BOOK</button>
+      <div class="grid col-start-1 col-span-3">
+      <h3 class="text-primary bg-seventh h-6">BOOK ET LOKALE DIREKTE HER</h3>
+      </div>
 
-      <div>
+      <button class="bg-third hover:bg-ninth hover:underline hover:text-secondary text-primary mt-4 grid col-start-1 col-span-1 h-8">BOOK</button>
+
+      <div class="grid col-start-4 col-span-2 row-start-1 ml-4">
         <video src="/img/tvvideo.mp4"></video>
       </div>
       
     </section>
 
-    <section>
-      <!-- <video src="/img/glitterhand.mp4"></video> -->
+    <section class="m-6">
+      <video src="/img/glitterhandd.mp4.mov"></video>
     </section>
 
+
+    <section class="m-6">
     <h2 class="text-secondary bg-primary">LOFTETS LOKALER</h2>
     <h3 class="text-secondary">//LOKALE 01</h3>
     <p class="uppercase text-secondary">
@@ -93,20 +98,23 @@
       trommeslager. Lokalet er udstyret med:
     </p>
     <ul>
-      <li class="text-white bg-third">// 2 stk. Bronco Deville 2X10 Guitarcombo</li>
-      <li class="text-white bg-third">// Snorx AC30C2 Basscombo</li>
-      <li class="text-white bg-third">// Korka 4-kanals sanganlæg</li>
-      <li class="text-white bg-third">// 2 stk Castafiore vokalmikrofoner på stativ</li>
-      <li class="text-white bg-third">// Mooga 6 oktavers keyboard</li>
-      <li class="text-white bg-third">// 6-spors Beckeringer mixer</li>
+      <li class="text-white bg-third mt-4">// 2 stk. Bronco Deville 2X10 Guitarcombo</li>
+      <li class="text-white bg-third mt-4">// Snorx AC30C2 Basscombo</li>
+      <li class="text-white bg-third mt-4">// Korka 4-kanals sanganlæg</li>
+      <li class="text-white bg-third mt-4">// 2 stk Castafiore vokalmikrofoner på stativ</li>
+      <li class="text-white bg-third mt-4">// Mooga 6 oktavers keyboard</li>
+      <li class="text-white bg-third mt-4">// 6-spors Beckeringer mixer</li>
     </ul>
-    <button class="text-secondary bg-seventh hover:underline">SE OVERSIGTSKORT HER</button>
-    <button class="text-secondary bg-sixth hover:bg-eighth hover:underline">BOOK</button>
+    <button class="text-secondary bg-seventh hover:underline mt-8 mb-4">SE OVERSIGTSKORT HER</button>
+    <div class="grid grid-cols-4 grid-rows-1">
+    <button class="text-secondary bg-sixth hover:bg-eighth hover:underline grid col-start-1 col-span-1 h-8 mr-2">BOOK</button>
     <!-- hvordan laver jeg tekst hover? -->
     <button class="text-secondary bg-fifth hover:bg-fourth hover:underline">PRIS</button>
+  </div>
+  </section>
 
-    <section>
-      <div>
+    <section class="grid grid-cols-3 grid-rows-1 m-6">
+      <div class=" grid col-start-1 col-span-1 gap-2">
         <video src="/img/redtv.mp4"></video>
         <video src="/img/redtv.mp4"></video>
         <video src="/img/redtv.mp4"></video>
@@ -114,7 +122,7 @@
       <!-- <img src="/img/speechbobble-removebg-preview.png" alt=""> -->
     </section>
 
-    <section>
+    <section class="m-6">
       <h3 class="text-secondary bg-primary">HVAD SIGER FOLK?</h3>
       <div>
 
@@ -123,10 +131,34 @@
       
     </section>
 
-    <section>
-      <h2>VISUALS VIA LOFTET</h2>
+    <section class="m-6">
+      <h2 class="text-secondary bg-primary">VISUALS VIA LOFTET</h2>
+      <div class="bg-seventh box-border h-1 border-none"></div>
+
+      <div>
+      <img src="/img/facemusikloftet.png" alt="">
+      <img src="/img/redshoe.mp4" alt="">
+      <img src="/img/blackwhiteguitar.mp4" alt="">
+    </div>
+
+    <div>
+      <p class="bg-primary text-secondary">HAR DU SELV LEJET ET LOKALE PÅ LOFTET?
+        SEND OS DINE EDITS, BILLEDER, VISUALS. WHATEVER.
+        VI VIL ELSKE AT DELE DEM HER!</p>
+        <img class="text-secondary" src="/img/emailus.mp4" alt=""><a href="">e-mail</a>
+    </div>
+
+      <div class="bg-seventh box-border h-1 border-none"></div>
     </section>
 
     <script type="module" src="index.js"></script>
   </body>
+  
+<footer class="border-secondary mt-20 border-4 md:p-4">
+      <div class="place-content-start">
+        <a href="index.html"
+          ><img class="md:max-w-sm" src="/img/logo.png" alt="logo"
+        /></a>
+      </div>
+    </footer>
 </html>
