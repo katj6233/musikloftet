@@ -21,6 +21,8 @@ module.exports = {
       eighth: "#FD8900",
       /*lilla*/
       ninth: "#9800F5",
+      /*grå*/
+      tenth: "#CDCDCD",
     },
 
     fontFamily: {
