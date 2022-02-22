@@ -3,46 +3,155 @@
 @tailwind utilities;
 
 @layer base {
-  h1 {
-    font-family: "Bebas Neue", cursive;
-    font-size: 2.3rem;
+  @media (min-width: 350px) {
+    h1 {
+      font-family: "Bebas Neue", cursive;
+      font-size: 2.7rem;
+    }
+
+    h2 {
+      font-family: "Bebas Neue", cursive;
+      font-size: 2rem;
+    }
+
+    h3 {
+      font-family: "Bebas Neue", cursive;
+      font-size: 1.4rem;
+    }
+
+    p,
+    .mail,
+    .pris_info {
+      font-family: "JetBrains Mono", sans-serif;
+      line-height: 1.4rem;
+      font-size: 0.8rem;
+    }
+
+    .email-adresse {
+      font-family: "JetBrains Mono", sans-serif;
+      font-size: 1rem;
+    }
+
+    button {
+      font-family: "JetBrains Mono", sans-serif;
+      font-size: 1.2rem;
+    }
   }
 
-  h2 {
-    font-family: "Bebas Neue", cursive;
-    font-size: 2rem;
+  @media (min-width: 640px) {
+    h1 {
+      font-family: "Bebas Neue", cursive;
+      font-size: 2.3rem;
+    }
+
+    h2 {
+      font-family: "Bebas Neue", cursive;
+      font-size: 2rem;
+    }
+
+    h3 {
+      font-family: "Bebas Neue", cursive;
+      font-size: 1.4rem;
+    }
+
+    p {
+      font-family: "JetBrains Mono", sans-serif;
+      line-height: 1.75rem;
+      font-size: 1rem;
+    }
+
+    .email-adresse {
+      font-family: "JetBrains Mono", sans-serif;
+      font-size: 1rem;
+    }
+
+    .mail,
+    .pris_info {
+      font-family: "JetBrains Mono", sans-serif;
+      font-size: 0.8rem;
+    }
+
+    button {
+      font-family: "JetBrains Mono", sans-serif;
+      font-size: 1.1rem;
+    }
   }
 
-  /* h3 {
-    font-family: "Bebas Neue", cursive;
-    font-size: 1.3rem;
-    padding-bottom: 0.5rem;
-  } */
+  @media (min-width: 768px) {
+    h1 {
+      font-family: "Bebas Neue", cursive;
+      font-size: 2.3rem;
+    }
 
-  h4 {
-    font-family: "Bebas Neue", cursive;
-    font-size: 1rem;
+    h2 {
+      font-family: "Bebas Neue", cursive;
+      font-size: 2rem;
+    }
+
+    h3 {
+      font-family: "Bebas Neue", cursive;
+      font-size: 1.4rem;
+    }
+
+    p {
+      font-family: "JetBrains Mono", sans-serif;
+      line-height: 1.75rem;
+      font-size: 1rem;
+    }
+
+    .email-adresse {
+      font-family: "JetBrains Mono", sans-serif;
+      font-size: 1rem;
+    }
+
+    .mail,
+    .pris_info {
+      font-family: "JetBrains Mono", sans-serif;
+      font-size: 0.8rem;
+    }
+
+    button {
+      font-family: "JetBrains Mono", sans-serif;
+      font-size: 1.1rem;
+    }
   }
 
-  p {
-    font-family: "JetBrains Mono", sans-serif;
-    line-height: 1.75rem;
-    font-size: 1rem;
-  }
+  @media (min-width: 1024px) {
+    h1 {
+      font-family: "Bebas Neue", cursive;
+      font-size: 2.3rem;
+    }
 
-  .email-adresse {
-    font-family: "JetBrains Mono", sans-serif;
-    font-size: 1rem;
-  }
+    h2 {
+      font-family: "Bebas Neue", cursive;
+      font-size: 3.75rem;
+    }
 
-  .mail,
-  .pris_info {
-    font-family: "JetBrains Mono", sans-serif;
-    font-size: 0.8rem;
-  }
+    h3 {
+      font-family: "Bebas Neue", cursive;
+      font-size: 1.4rem;
+    }
 
-  button {
-    font-family: "JetBrains Mono", sans-serif;
-    font-size: 1.1rem;
+    p {
+      font-family: "JetBrains Mono", sans-serif;
+      line-height: 1.75rem;
+      font-size: 1rem;
+    }
+
+    .email-adresse {
+      font-family: "JetBrains Mono", sans-serif;
+      font-size: 1rem;
+    }
+
+    .mail,
+    .pris_info {
+      font-family: "JetBrains Mono", sans-serif;
+      font-size: 0.8rem;
+    }
+
+    button {
+      font-family: "JetBrains Mono", sans-serif;
+      font-size: 1.1rem;
+    }
   }
 }
