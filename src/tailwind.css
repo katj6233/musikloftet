@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  /* h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 2.3rem;
+  }
+
+  h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.3rem;
+    padding-bottom: 0.5rem;
+  }
+
+  h4,
+  li {
+    font-weight: 800;
+  } */
+
+  p {
+    font-family: "JetBrains Mono", sans-serif;
+    line-height: 1.75rem;
+    font-size: 1rem;
+  }
+
+  button {
+    font-family: "JetBrains Mono", sans-serif;
+    font-size: 1.1rem;
+  }
+}
