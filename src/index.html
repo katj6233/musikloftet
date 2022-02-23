@@ -49,7 +49,7 @@
       <img src="/img/Musikloftet_logo3_logotype.png" alt="" />
     </header>
 
-    <section class="grid grid-cols-5 grid-rows-3">
+    <section id="top" class="grid grid-cols-5 grid-rows-3">
       <div
         class="from-fifth to-ninth text-secondary col-span-4 col-start-1 row-span-1 row-start-1 m-6 mb-1 grid bg-gradient-to-r p-4"
       >
@@ -83,7 +83,7 @@
       </div>
     </section>
 
-    <section class="m-6 grid grid-cols-5 grid-rows-1">
+    <section id="lokale" class="m-6 grid grid-cols-5 grid-rows-1">
       <div class="col-span-3 col-start-1 grid h-6 gap-2 pb-4">
         <h3 class="text-primary bg-seventh h-6 w-[14rem]">
           VI UDLEJER LOKALER PÅ LOFTET
@@ -112,6 +112,7 @@
     </section>
 
     <section class="m-6 snap-x snap-proximity">
+    
       <!-- lokale01 -->
       <div class="snap-center">
         <h3 class="text-secondary">//LOKALE 01</h3>
@@ -162,53 +163,13 @@
       </div>
 
       <!-- lokale02 -->
-      <div class="snap-center">
-        <h3 class="text-secondary">//LOKALE 01</h3>
-        <p class="text-secondary uppercase">
-          lokale //01 er ca. 10m2, er oplagt for små bands/orkestre, som ikke
-          har en trommeslager. Lokalet er udstyret med:
-        </p>
-        <ul>
-          <li class="bg-third mt-4 w-[20rem] text-white">
-            // 2 stk. Bronco Deville 2X10 Guitarcombo
-          </li>
-          <li class="bg-third mt-4 w-[14rem] text-white">
-            // Snorx AC30C2 Basscombo
-          </li>
-          <li class="bg-third mt-4 w-[14rem] text-white">
-            // Korka 4-kanals sanganlæg
-          </li>
-          <li class="bg-third mt-4 w-[20rem] text-white">
-            // 2 stk Castafiore vokalmikrofoner på stativ
-          </li>
-          <li class="bg-third mt-4 w-[14rem] text-white">
-            // Mooga 6 oktavers keyboard
-          </li>
-          <li class="bg-third mt-4 w-[14rem] text-white">
-            // 6-spors Beckeringer mixer
-          </li>
-        </ul>
-        <button class="text-secondary bg-seventh mt-8 mb-4 hover:underline">
-          SE OVERSIGTSKORT HER
-        </button>
-        <div class="grid grid-cols-4 grid-rows-1">
-          <button
-            class="text-secondary bg-sixth hover:bg-eighth col-span-1 col-start-1 mr-2 grid h-8 hover:underline"
-          >
-            BOOK
-          </button>
-          <!-- hvordan laver jeg tekst hover? -->
-          <button
-            class="text-secondary bg-fifth hover:bg-fourth hover:underline"
-          >
-            PRIS
-          </button>
-        </div>
+      <!-- lokale03 -->
+      
+    </section>
 
-        <div class="mt-6">
-          <video autoplay loop src="/img/mellemrum.mp4"></video>
-        </div>
-      </div>
+    <section id="anmeldelse" class="m-6">
+      <h3 class="text-secondary bg-primary w-[]">HVAD SIGER FOLK?</h3>
+      <div></div>
     </section>
 
     <section class="m-6 grid grid-cols-3 grid-rows-1">
@@ -220,22 +181,22 @@
       <!-- <img src="/img/speechbobble-removebg-preview.png" alt=""> -->
     </section>
 
-    <section class="m-6">
-      <h3 class="text-secondary bg-primary">HVAD SIGER FOLK?</h3>
-      <div></div>
-    </section>
+    
 
-    <section class="m-6">
+    <section id="visuals" class="m-6">
       <h2 class="text-secondary bg-primary">VISUALS VIA LOFTET</h2>
 
       <section class="grid grid-cols-5 grid-rows-1">
         <div class="col-span-1 col-start-1 grid">
           <img class="mt-6" src="/img/facemusikloftet.png" alt="" />
+          <p class="bg-third text-primary">// edit af Rebecca Hildebrandt</p>
           <video autoplay loop src="/img/redshoe.mp4"></video>
+          <p class="bg-third text-primary">// gif af Alan Knudsen</p>
         </div>
 
         <div class="col-span-1 col-start-2 mt-6 grid">
           <video autoplay loop src="/img/blackwhiteguitar.mp4" alt=""></video>
+          <p class="bg-third text-primary">// gid af Anne My Munksgaard</p>
         </div>
 
         <div class="col-span-3 col-start-3 m-6 grid">
@@ -250,8 +211,8 @@
       </section>
     </section>
 
-    <section class="m-10 grid grid-cols-2 grid-rows-1 gap-4">
-      <div class="col-span-1 col-start-1 grid gap-2">
+    <section id="kontakt" class="m-10 grid grid-cols-2 grid-rows-1 gap-4 sm:m-15">
+      <div class="col-span-1 col-start-1 grid gap-2 sm:gap-5 sm:m-4">
         <p class="bg-fourth text-secondary w-[6rem]">MUSIKLOFTET.</p>
         <p class="bg-fourth text-secondary uppercase">
           Bastionvej 2, Prøvestenen, 2300
@@ -262,7 +223,7 @@
         </p>
       </div>
 
-      <div class="col-span-1 col-start-2 grid">
+      <div class="col-span-1 col-start-2 grid sm:m-6">
         <video autoplay loop src="/img/guitarturn.mp4"></video>
       </div>
     </section>
