@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="tailwind.css" />
   </head>
 
-  <body class="bg-[url('/img/baggrund.jpg')]">
+  <body class="bg-[url('/img/baggrund.jpg')] md:pt-16 lg:pt-0">
     <!-- menu -->
     <header class="md:grid md:grid-cols-5 lg:mt-40">
       <section class="md:col-span-1 md:col-start-1 md:pl-10 md:pt-10 lg:ml-20">
@@ -58,17 +58,17 @@
 
         <a class="" href="index.html">
           <button
-            class="shadow-pop-tr from-ninth to-fifth text-secondary mt-5 ml-6 bg-gradient-to-r pr-3 pl-3 pt-1 pb-1 text-2xl md:ml-2"
+            class="shadow-pop-tr from-ninth to-fifth text-secondary mt-5 ml-6 bg-gradient-to-r pr-3 pl-3 pt-1 pb-1 text-left text-2xl md:ml-2"
           >
             BACK
           </button>
         </a>
       </section>
 
-      <section class="ml-6 mr-6 mt-10 sm:w-[70rem] md:w-[100rem] md:ml-[4rem] lg:ml-2">
+      <section class="ml-6 mr-6 mt-10 sm:w-[70rem] md:w-[100rem] lg:ml-2">
         <!-- <a href="index.html"> -->
           <img
-            class="sm:ml-4 lg:ml-0 lg:mb-3 lg:w-[40rem]"
+            class="sm:ml-8 lg:ml-0 lg:mb-3 lg:w-[40rem]"
             src="/img/logomusikloftett.svg"
             alt=""
         /></a>
@@ -76,20 +76,22 @@
     </header>
 
       <!-- article tag -->
-      <article class="ml-6 mr-6 sm:ml-10 sm:mr-10 md:ml-12 md:mr-12 lg:mr-12">
+      <article class="ml-6 mr-6">
 
       <!-- lilla boks -->
-      <section class="md:mt-[3rem]">
-        <div class="mt-5 mb-5 bg-ninth pb-5 pr-3 sm:w-[28rem] md:w-[35rem] xl:w-[40rem]">
-          <h1 class="mb-2">BOOKING</h1>
+      <section class="sm:mt-[2rem] sm:ml-8 md:grid md:grid-cols-5 md:grid-rows-1 md:pl-4 lg:ml-0 lg:mt-[-8rem]">
+        <div class="mt-5 mb-5 bg-ninth pb-5 pr-3 sm:w-[28rem] xl:w-[40rem] sm:mb-3 md:col-span-2 md:col-start-2 md:w-[34em]">
+          <h1 class="mb-3">BOOKING</h1>
           <p class="text-secondary sm:w-[25rem] md:w-[30rem] xl:w-[40rem]">For at booke loftets lokaler kan man henvende sig til følgende e-mail: <a class="underline hover:text-fourth" href="#0">info@musikloftet.dk</a></p>
         </div>
       </section>
 
+      <section class="sm:ml-9 md:grid md:grid-cols-5 md:grid-rows-1 md:p-5 lg:ml-0">
+
       <!-- gul tekster -->
-      <section class="mt-6">
+      <section class="md:col-start-2">
         <div class="mb-4">
-          <h2 class="bg-primary text-secondary w-[8rem]">PRÆMISSER</h2>
+          <h2 class="bg-primary text-secondary w-[10rem]">PRÆMISSER</h2>
         </div>
         <div class="">
           <p class="bg-third mb-6 sm:w-[28rem] md:w-[35rem] xl:w-[31rem]">//Hvert lokale lejes af 3 timer ad gangen én dag om ugen</p>
@@ -98,12 +100,10 @@
         </div>
       </section>
 
-      <section class="lg:flex">
-      <!-- section rundt om grå og grøn boks -->
-      <section class="flex pt-8 mb-8 lg:flex-col">
-
+    <section class="flex md:place-content-evenly gap-8 pb-9 md:col-span-1 md:col-start-1 md:row-span-1 md:row-start-1 md:flex-wrap md:pr-10">
+        
       <!-- grå pris boks -->
-      <section class="mr-6">
+      <section class="md:pr-10">
         <div class="bg-tenth box-content h-[18rem] w-32 sm:h-[19rem] sm:w-[10rem] md:h-[19rem] lg:mb-4 lg:h-[19rem]">
           <h3 class="bg-primary w-[6rem] text-secondary">LOKALE 01</h3>
           <div class="pris_info mt-2 mb-2">Påvist = ledig <br> //300 kr./md</div>
@@ -115,7 +115,7 @@
       </section>
 
       <!-- grøn email boks -->
-      <section class="mb-6">
+      <section class="md:pr-10">
         <div class="bg-sixth box-content h-[18rem] w-32 sm:h-[19rem] sm:w-[10rem] md:h-[19rem] lg:h-[19rem]">
           <h3 class="bg-primary text-secondary w-[7.5rem] sm:w-[9rem]">DIREKTE BOOKING</h3>
           <div class="email-adresse bg-secondary text-primary mb-2 mt-6 w-[6rem]">E-MAIL...</div>
@@ -123,10 +123,11 @@
           <button class="bg-fourth p-2 text-secondary mt-6 hover:bg-eighth hover:text-primary hover:underline">SEND</button>
         </div>
       </section>
+
     </section>
 
       <!-- tabeloversigt over ledige lokaler -->
-      <section>
+      <section class="mt-20 sm:mt-3 md:col-start-2">
         <h3 class="bg-fifth text-secondary mb-5 w-[7rem] lg:mt-8"> //LOKALE 01</h3>
            <!-- lille lokale -->
         <div class="flex flex-col">
@@ -780,13 +781,13 @@
     <!-- tabel færdig -->
     </section>
 
-  <!-- den helt store sektion med grå og grøn boks og tabel færdig -->
-  </section>
-
     <!-- Oversigtsknap -->
-    <section class="lg:ml-[11.5rem]">
+    <section class="lg:ml-[11.5rem] mt-20 sm:mt-3 md:col-span-2 md:col-start-2 md:mt-10">
       <button class="bg-seventh text-secondary hover:underline p-2 mt-6">SE OVERSIGTSKORT HER</button>
     </section>
+
+      <!-- den helt store sektion med grå og grøn boks og tabel færdig -->
+  </section>
 
     <!-- artikel tag færdig -->
     </article>
