@@ -42,20 +42,14 @@
       <img src="/img/logo.png" alt="">
     </header>
 
-    <article class="ml-6 mr-6">
+      <!-- article tag -->
+      <article class="ml-6 mr-6 sm:ml-10 sm:mr-10 md:ml-12 md:mr-12 lg:ml-20 lg:mr-12">
 
       <!-- lilla boks -->
       <section>
-        <div
-          class="mt-5 mb-5 bg-ninth pb-5 pr-3 md:col-span-2 md:col-start-2 md:w-[38rem]"
-        >
-          <h1 class="mb-3">BOOKING</h1>
-          <p class="text-secondary md:w-[30rem]">
-            For at booke loftets lokaler kan man henvende sig til følgende e-mail: info@musikloftet.dk 
-          </p>
-        </div>
-        <div class="md:col-span-2 md:col-start-1">
-          <img class="scale-up-center" src="/img/emailus.mp4" alt="" />
+        <div class="mt-5 mb-5 bg-ninth pb-5 pr-3 sm:w-[28rem] md:w-[35rem] xl:w-[40rem]">
+          <h1 class="mb-2">BOOKING</h1>
+          <p class="text-secondary sm:w-[25rem] md:w-[30rem] xl:w-[40rem]">For at booke loftets lokaler kan man henvende sig til følgende e-mail: <a class="underline hover:text-fourth" href="#0">info@musikloftet.dk</a></p>
         </div>
       </section>
 
@@ -65,16 +59,19 @@
           <h2 class="bg-primary text-secondary w-[8rem]">PRÆMISSER</h2>
         </div>
         <div class="">
-          <p class="mb-6 bg-[#F4F900]">//Hvert lokale lejes af 3 timer ad gangen én dag om ugen</p>
-          <p class="mb-6 bg-[#F4F900]">//Alle lokaler er støjdempede og udstyret med det nødvendige spilleudstyr</p>
-          <p class="mb-6 bg-[#F4F900]">//Bindingsperioden for leje af loftets lokaler er: den løbende måned + 30 dage</p>
+          <p class="bg-third mb-6 sm:w-[28rem] md:w-[35rem] xl:w-[31rem]">//Hvert lokale lejes af 3 timer ad gangen én dag om ugen</p>
+          <p class="bg-third mb-6 sm:w-[28rem] md:w-[35rem] xl:w-[40rem]">//Alle lokaler er støjdempede og udstyret med det nødvendige spilleudstyr</p>
+          <p class="bg-third mb-6 sm:w-[28rem] md:w-[35rem] xl:w-[43rem]">//Bindingsperioden for leje af loftets lokaler er: den løbende måned + 30 dage</p>
         </div>
       </section>
 
-      <section class="flex pt-8 mb-8">
+      <section class="lg:flex">
+      <!-- section rundt om grå og grøn boks -->
+      <section class="flex pt-8 mb-8 lg:flex-col">
+
       <!-- grå pris boks -->
       <section class="mr-6">
-        <div class="bg-tenth box-content h-[18rem] w-32">
+        <div class="bg-tenth box-content h-[18rem] w-32 sm:h-[19rem] sm:w-[10rem] md:h-[19rem] lg:mb-4 lg:h-[19rem]">
           <h3 class="bg-primary w-[6rem] text-secondary">LOKALE 01</h3>
           <div class="pris_info mt-2 mb-2">Påvist = ledig <br> //300 kr./md</div>
           <h3 class="bg-primary w-[6rem] text-secondary">LOKALE 02</h3>
@@ -86,18 +83,18 @@
 
       <!-- grøn email boks -->
       <section class="mb-6">
-        <div class="bg-sixth box-content h-[18rem] w-32">
-          <h3 class="bg-primary text-secondary w-[7.5rem]">DIREKTE BOOKING</h3>
+        <div class="bg-sixth box-content h-[18rem] w-32 sm:h-[19rem] sm:w-[10rem] md:h-[19rem] lg:h-[19rem]">
+          <h3 class="bg-primary text-secondary w-[7.5rem] sm:w-[9rem]">DIREKTE BOOKING</h3>
           <div class="email-adresse bg-secondary text-primary mb-2 mt-6 w-[6rem]">E-MAIL...</div>
           <div class="mail bg-secondary text-primary mt-6 w-[7.5rem]">FORTÆL OS HVILKET LOKALE DU ØNSKER AT BOOKE</div>
-          <button class="bg-fourth p-2 text-secondary mt-6 hover:bg-third hover:text-primary hover:underline">SEND</button>
+          <button class="bg-fourth p-2 text-secondary mt-6 hover:bg-eighth hover:text-primary hover:underline">SEND</button>
         </div>
       </section>
     </section>
 
       <!-- tabeloversigt over ledige lokaler -->
       <section>
-        <h3 class="bg-ninth text-secondary mb-5 w-[7rem]"> //LOKALE 01</h3>
+        <h3 class="bg-fifth text-secondary mb-5 w-[7rem] lg:mt-8"> //LOKALE 01</h3>
            <!-- lille lokale -->
         <div class="flex flex-col">
         <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8 pb-2">
@@ -304,7 +301,7 @@
 
 <!-- mellem lokale -->
 
-<h3 class="bg-ninth text-secondary mb-5 mt-10 w-[7rem]">//LOKALE 02</h3>
+<h3 class="bg-fifth text-secondary mb-5 mt-10 w-[7rem]">//LOKALE 02</h3>
 
     <div class="flex flex-col">
       <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8 pb-2">
@@ -528,7 +525,7 @@
         </div>
 
             <!-- store lokale -->
-            <h3 class="bg-ninth text-secondary mb-5 mt-10 w-[7rem]">//LOKALE 03</h3>
+            <h3 class="bg-fifth text-secondary mb-5 mt-10 w-[7rem]">//LOKALE 03</h3>
 
             <div class="flex flex-col">
               <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
@@ -747,13 +744,21 @@
               </div>
             </div>
         
+    <!-- tabel færdig -->
     </section>
 
-    <section>
+  <!-- den helt store sektion med grå og grøn boks og tabel færdig -->
+  </section>
+
+    <!-- Oversigtsknap -->
+    <section class="lg:ml-[11.5rem]">
       <button class="bg-seventh text-secondary hover:underline p-2 mt-6">SE OVERSIGTSKORT HER</button>
     </section>
+
+    <!-- artikel tag færdig -->
     </article>
 
+    <!-- footer tag -->
     <footer class="border-secondary mt-20 border-4 md:p-4">
       <div class="place-content-start">
         <a href="index.html"><img class="md:max-w-sm" src="/img/logo.png" alt="logo"/></a>
