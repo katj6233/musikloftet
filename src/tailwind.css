@@ -22,7 +22,7 @@
     p,
     .mail,
     .pris_info,
-    .tabel {
+    .tabel, li {
       font-family: "JetBrains Mono", sans-serif;
       line-height: 1.4rem;
       font-size: 0.8rem;
@@ -61,7 +61,7 @@
     p,
     .mail,
     .pris_info,
-    .tabel {
+    .tabel, li {
       font-family: "JetBrains Mono", sans-serif;
       line-height: 1.4rem;
       font-size: 0.8rem;
@@ -97,7 +97,7 @@
     p,
     .mail,
     .pris_info,
-    .tabel {
+    .tabel, li {
       font-family: "JetBrains Mono", sans-serif;
       line-height: 1.4rem;
       font-size: 0.9rem;
@@ -133,7 +133,7 @@
     p,
     .mail,
     .pris_info,
-    .tabel {
+    .tabel, li {
       font-family: "JetBrains Mono", sans-serif;
       line-height: 1.4rem;
       font-size: 0.9rem;
@@ -169,7 +169,7 @@
     p,
     .mail,
     .pris_info,
-    .tabel {
+    .tabel, li {
       font-family: "JetBrains Mono", sans-serif;
       line-height: 1.4rem;
       font-size: 0.9rem;
